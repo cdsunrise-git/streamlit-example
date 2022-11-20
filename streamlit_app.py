@@ -13,7 +13,7 @@ ws = wb.create_sheet("a")
 
 ws['A1'].value = "test입니다."
 
-st.error("파일명: ", union_file)
+st.write("파일명: ", union_file)
 
 wb_dst.save(union_file)
 wb_dst.close()
