@@ -15,5 +15,5 @@ ws['A1'].value = "test입니다."
 
 st.write("파일명: ", union_file)
 
-wb_dst.save(union_file)
-wb_dst.close()
+wb.save(union_file)
+wb.close()
